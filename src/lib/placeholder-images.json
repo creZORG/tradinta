@@ -1,3 +1,130 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-main",
+      "description": "A bustling and vibrant marketplace with many people shopping.",
+      "imageUrl": "https://images.unsplash.com/photo-1652860360363-ff4a7b9c0f69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYXJrZXRwbGFjZSUyMHNob3BwaW5nfGVufDB8fHx8MTc1ODcwNjcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "marketplace shopping"
+    },
+    {
+      "id": "prod-img-1",
+      "description": "A modern wireless headphone set in black.",
+      "imageUrl": "https://images.unsplash.com/photo-1657223144998-e5aa4fa2db7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3aXJlbGVzcyUyMGhlYWRwaG9uZXN8ZW58MHx8fHwxNzU4NzA5MjMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wireless headphones"
+    },
+    {
+      "id": "prod-img-2",
+      "description": "A stylish leather backpack suitable for travel.",
+      "imageUrl": "https://images.unsplash.com/photo-1682316967717-16b32a406559?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsZWF0aGVyJTIwYmFja3BhY2t8ZW58MHx8fHwxNzU4NzA3NTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather backpack"
+    },
+    {
+      "id": "prod-img-3",
+      "description": "An elegant smartwatch with a silver band.",
+      "imageUrl": "https://images.unsplash.com/photo-1623998024112-74fd3267d19c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzbWFydHdhdGNoJTIwc2lsdmVyfGVufDB8fHx8MTc1ODc3NDczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartwatch silver"
+    },
+    {
+      "id": "prod-img-4",
+      "description": "A comfortable pair of running shoes in blue and white.",
+      "imageUrl": "https://images.unsplash.com/photo-1587587448924-b5a1db520d29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxydW5uaW5nJTIwc2hvZXN8ZW58MHx8fHwxNzU4Njk0ODEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "running shoes"
+    },
+    {
+      "id": "prod-img-5",
+      "description": "A high-resolution digital camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1612232099404-0ca09938afac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwY2FtZXJhfGVufDB8fHx8MTc1ODcyMTQ5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital camera"
+    },
+    {
+      "id": "prod-img-6",
+      "description": "A set of ceramic mugs with minimalist design.",
+      "imageUrl": "https://images.unsplash.com/photo-1529423374493-8b2f78fd2437?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJhbWljJTIwbXVnc3xlbnwwfHx8fDE3NTg2OTk0ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ceramic mugs"
+    },
+    {
+      "id": "prod-img-7",
+      "description": "A fashionable denim jacket.",
+      "imageUrl": "https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkZW5pbSUyMGphY2tldHxlbnwwfHx8fDE3NTg2ODg0NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "denim jacket"
+    },
+    {
+      "id": "prod-img-8",
+      "description": "An organic cotton t-shirt in white.",
+      "imageUrl": "https://images.unsplash.com/photo-1576417677416-6ca3adfb5435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3aGl0ZSUyMHQtc2hpcnR8ZW58MHx8fHwxNzU4Njg3NTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white t-shirt"
+    },
+    {
+      "id": "prod-img-9",
+      "description": "A sleek portable power bank for mobile devices.",
+      "imageUrl": "https://images.unsplash.com/photo-1594843665794-446ce915d840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb3dlciUyMGJhbmt8ZW58MHx8fHwxNzU4NzExNzMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "power bank"
+    },
+    {
+      "id": "prod-img-10",
+      "description": "A handcrafted wooden chess set.",
+      "imageUrl": "https://images.unsplash.com/photo-1606779218751-57d4684a9422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGVzcyUyMHNldHxlbnwwfHx8fDE3NTg3MDMwMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chess set"
+    },
+    {
+      "id": "prod-img-11",
+      "description": "A vintage-style turntable for vinyl records.",
+      "imageUrl": "https://images.unsplash.com/photo-1599723895995-80e160d14fe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2aW55bCUyMHR1cm50YWJsZXxlbnwwfHx8fDE3NTg3NzQ3Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vinyl turntable"
+    },
+    {
+      "id": "prod-img-12",
+      "description": "A set of professional kitchen knives.",
+      "imageUrl": "https://images.unsplash.com/photo-1514986888952-8cd320577b68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxraXRjaGVuJTIwa25pdmVzfGVufDB8fHx8MTc1ODcyNTcyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen knives"
+    },
+    {
+      "id": "vendor-logo-1",
+      "description": "Logo for a tech gadget store.",
+      "imageUrl": "https://images.unsplash.com/photo-1622651132634-a7ed1fbb86dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWNoJTIwbG9nb3xlbnwwfHx8fDE3NTg3NzAxMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech logo"
+    },
+    {
+      "id": "vendor-logo-2",
+      "description": "Logo for a fashion and apparel brand.",
+      "imageUrl": "https://images.unsplash.com/photo-1662052955098-042b46e60c2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYXNoaW9uJTIwbG9nb3xlbnwwfHx8fDE3NTg3MDQ1Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion logo"
+    },
+    {
+      "id": "vendor-logo-3",
+      "description": "Logo for a home goods and decor store.",
+      "imageUrl": "https://images.unsplash.com/photo-1699419553689-1c7b2897a287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob21lJTIwbG9nb3xlbnwwfHx8fDE3NTg3MDY3MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home logo"
+    },
+    {
+      "id": "vendor-logo-4",
+      "description": "Logo for a warehouse.",
+      "imageUrl": "https://images.unsplash.com/photo-1703432931202-0706a656c8bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3YXJlaG91c2UlMjBsb2dvfGVufDB8fHx8MTc1ODc3NDczN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse logo"
+    },
+    {
+      "id": "vendor-cover-1",
+      "description": "Cover image for a tech store, showing various gadgets.",
+      "imageUrl": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWNoJTIwZ2FkZ2V0c3xlbnwwfHx8fDE3NTg2ODgwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech gadgets"
+    },
+    {
+      "id": "vendor-cover-2",
+      "description": "Cover image for a fashion store, showing clothes on racks.",
+      "imageUrl": "https://images.unsplash.com/photo-1601135362309-39ed976cff85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmYXNoaW9uJTIwYm91dGlxdWV8ZW58MHx8fHwxNzU4Nzc0NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion boutique"
+    },
+    {
+      "id": "vendor-cover-3",
+      "description": "Cover image for a home goods store, showing a cozy living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxob21lJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzU4NzAxNzgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home interior"
+    },
+    {
+      "id": "vendor-cover-4",
+      "description": "Cover image for a warehouse, showing boxes and shelves.",
+      "imageUrl": "https://images.unsplash.com/photo-1652047567284-66229598070d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3YXJlaG91c2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NTg3MjE3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "warehouse interior"
+    }
+  ]
 }
