@@ -13,8 +13,9 @@ import Image from 'next/image';
 import { placeholderImages } from '@/lib/placeholder-images.json';
 import { useRouter } from 'next/navigation';
 import { useToast } from '@/hooks/use-toast';
+import { Suspense } from 'react';
 
-export default function CheckoutPage() {
+function CheckoutContents() {
   const { cart, cartTotal, clearCart } = useCart();
   const router = useRouter();
   const { toast } = useToast();
@@ -160,4 +161,12 @@ export default function CheckoutPage() {
       <SiteFooter />
     </div>
   );
+}
+
+export default function CheckoutPage() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <CheckoutContents />
+        </Suspense>
+    )
 }
