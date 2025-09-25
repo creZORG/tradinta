@@ -7,6 +7,7 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { getPersonalizedRecommendations } from '@/ai/flows/personalized-recommendations';
 import { placeholderImages } from '@/lib/placeholder-images';
+import { Suspense } from 'react';
 
 async function RecommendedProducts() {
   // Mock user data for recommendation generation
@@ -42,7 +43,7 @@ async function RecommendedProducts() {
   }
 }
 
-export default function Home() {
+function HomeContents() {
   const heroImage = placeholderImages.find(p => p.id === "hero-main");
 
   return (
@@ -126,3 +127,12 @@ const Card = ({ className, children }: { className?: string, children: React.Rea
     {children}
   </div>
 );
+
+
+export default function Home() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <HomeContents />
+    </Suspense>
+  )
+}

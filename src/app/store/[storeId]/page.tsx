@@ -7,8 +7,9 @@ import { SiteFooter } from '@/components/SiteFooter';
 import { ProductCard } from '@/components/ProductCard';
 import { Star } from 'lucide-react';
 import { Card } from '@/components/ui/card';
+import { Suspense } from 'react';
 
-export default function StorePage({ params }: { params: { storeId: string } }) {
+function StorePageContents({ params }: { params: { storeId: string } }) {
   const vendor = vendors.find((v) => v.id === params.storeId);
 
   if (!vendor) {
@@ -79,4 +80,13 @@ export default function StorePage({ params }: { params: { storeId: string } }) {
       <SiteFooter />
     </div>
   );
+}
+
+
+export default function StorePage({ params }: { params: { storeId: string } }) {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <StorePageContents params={params} />
+    </Suspense>
+  )
 }

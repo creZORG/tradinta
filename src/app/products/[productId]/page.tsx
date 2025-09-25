@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { products, vendors } from '@/lib/data';
@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/select";
 import { ProductCard } from '@/components/ProductCard';
 
-export default function ProductPage({ params }: { params: { productId: string } }) {
+function ProductPageContents({ params }: { params: { productId: string } }) {
   const { addToCart } = useCart();
   const { toast } = useToast();
   const [quantity, setQuantity] = useState(1);
@@ -150,4 +150,12 @@ export default function ProductPage({ params }: { params: { productId: string } 
       <SiteFooter />
     </div>
   );
+}
+
+export default function ProductPage({ params }: { params: { productId: string } }) {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ProductPageContents params={params} />
+    </Suspense>
+  )
 }
