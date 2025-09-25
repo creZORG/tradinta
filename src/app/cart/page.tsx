@@ -6,13 +6,13 @@ import { useCart } from '@/context/CartContext';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Minus, Plus, Trash2, ShoppingCart } from 'lucide-react';
 import { placeholderImages } from '@/lib/placeholder-images.json';
 import { Separator } from '@/components/ui/separator';
+import { Suspense } from 'react';
 
-export default function CartPage() {
+function CartContents() {
   const { cart, updateQuantity, removeFromCart, cartTotal } = useCart();
 
   return (
@@ -118,4 +118,12 @@ export default function CartPage() {
       <SiteFooter />
     </div>
   );
+}
+
+export default function CartPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <CartContents />
+    </Suspense>
+  )
 }
