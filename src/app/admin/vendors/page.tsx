@@ -86,8 +86,8 @@ export default function AdminVendors() {
                         <TableCell>
                             <Badge variant="outline">Active</Badge>
                         </TableCell>
-                        <TableCell className="hidden md:table-cell">${(vendor.reviewCount * 123.45).toLocaleString()}</TableCell>
-                        <TableCell className="hidden md:table-cell">${(vendor.reviewCount * 123.45 * 0.1).toLocaleString()}</TableCell>
+                        <TableCell className="hidden md:table-cell">Kes {(vendor.reviewCount * 123.45).toLocaleString()}</TableCell>
+                        <TableCell className="hidden md:table-cell">Kes {(vendor.reviewCount * 123.45 * 0.1).toLocaleString()}</TableCell>
                         <TableCell>
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>

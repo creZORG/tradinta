@@ -25,7 +25,7 @@ import {
                 <DollarSign className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-                <div className="text-2xl font-bold">$1,245,231.89</div>
+                <div className="text-2xl font-bold">Kes 1,245,231.89</div>
                 <p className="text-xs text-muted-foreground">
                 +25.1% from last month
                 </p>
@@ -91,7 +91,7 @@ import {
                     <div className="font-medium">Fashion Forward</div>
                   </TableCell>
                   <TableCell>New Product Listing</TableCell>
-                  <TableCell>$75.00</TableCell>
+                  <TableCell>Kes 75.00</TableCell>
                   <TableCell className="text-right">2023-06-23</TableCell>
                 </TableRow>
                  <TableRow>
@@ -99,7 +99,7 @@ import {
                     <div className="font-medium">Tech Innovators Inc.</div>
                   </TableCell>
                   <TableCell>Order #3210</TableCell>
-                  <TableCell>$350.00</TableCell>
+                  <TableCell>Kes 350.00</TableCell>
                   <TableCell className="text-right">2023-06-23</TableCell>
                 </TableRow>
                 <TableRow>
@@ -107,15 +107,15 @@ import {
                     <div className="font-medium">Cozy Home Creations</div>
                   </TableCell>
                   <TableCell>Payout Processed</TableCell>
-                  <TableCell className="text-destructive">-$1,200.00</TableCell>
+                  <TableCell className="text-destructive">-Kes 1,200.00</TableCell>
                   <TableCell className="text-right">2023-06-22</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell>
-                    <div className="font-medium">GlobalHub Warehouse</div>
+                    <div className="font-medium">Tradinta Warehouse</div>
                   </TableCell>
                   <TableCell>Order #3209</TableCell>
-                  <TableCell>$450.00</TableCell>
+                  <TableCell>Kes 450.00</TableCell>
                   <TableCell className="text-right">2023-06-22</TableCell>
                 </TableRow>
               </TableBody>

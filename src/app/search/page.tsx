@@ -27,7 +27,7 @@ function SearchResults() {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedVendors, setSelectedVendors] = useState<string[]>([]);
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 2000]);
+  const [priceRange, setPriceRange] = useState<[number, number]>([0, 200000]);
   const [sortBy, setSortBy] = useState('relevance');
 
   const categories = useMemo(() => [...new Set(products.map(p => p.category))], []);
@@ -104,15 +104,15 @@ function SearchResults() {
                  <div>
                   <h3 className="font-semibold mb-2">Price Range</h3>
                   <Slider
-                    defaultValue={[0, 2000]}
+                    defaultValue={[0, 200000]}
                     min={0}
-                    max={2000}
-                    step={50}
+                    max={200000}
+                    step={1000}
                     onValueCommit={(value) => setPriceRange(value as [number, number])}
                   />
                   <div className="flex justify-between text-sm text-muted-foreground mt-2">
-                    <span>${priceRange[0]}</span>
-                    <span>${priceRange[1]}</span>
+                    <span>Kes {priceRange[0]}</span>
+                    <span>Kes {priceRange[1]}</span>
                   </div>
                 </div>
               </CardContent>

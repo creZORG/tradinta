@@ -18,14 +18,14 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
   const [cart, setCart] = useState<CartItem[]>([]);
 
   useEffect(() => {
-    const savedCart = localStorage.getItem('globalhub_cart');
+    const savedCart = localStorage.getItem('tradinta_cart');
     if (savedCart) {
       setCart(JSON.parse(savedCart));
     }
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('globalhub_cart', JSON.stringify(cart));
+    localStorage.setItem('tradinta_cart', JSON.stringify(cart));
   }, [cart]);
 
   const addToCart = (product: Product, quantity: number) => {

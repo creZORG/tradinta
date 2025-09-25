@@ -57,7 +57,7 @@ export default function CartPage() {
                           <div className="flex-grow">
                             <Link href={`/products/${product.id}`} className="font-bold hover:text-primary">{product.name}</Link>
                             <p className="text-sm text-muted-foreground">{product.category}</p>
-                            <p className="text-lg font-semibold mt-2">${product.price.toFixed(2)}</p>
+                            <p className="text-lg font-semibold mt-2">Kes {product.price.toFixed(2)}</p>
                           </div>
                           <div className="flex items-center gap-4">
                             <div className="flex items-center border rounded-md">
@@ -89,7 +89,7 @@ export default function CartPage() {
                 <CardContent className="space-y-4">
                   <div className="flex justify-between">
                     <span>Subtotal</span>
-                    <span>${cartTotal.toFixed(2)}</span>
+                    <span>Kes {cartTotal.toFixed(2)}</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Shipping</span>
@@ -102,7 +102,7 @@ export default function CartPage() {
                   <Separator />
                   <div className="flex justify-between font-bold text-lg">
                     <span>Total</span>
-                    <span>${cartTotal.toFixed(2)}</span>
+                    <span>Kes {cartTotal.toFixed(2)}</span>
                   </div>
                 </CardContent>
                 <CardFooter>

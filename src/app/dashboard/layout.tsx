@@ -82,7 +82,7 @@ export default function DashboardLayout({
           <DashboardNav />
         </SidebarContent>
         <SidebarFooter>
-          <p className="text-xs text-sidebar-foreground/70 px-4 py-2">© GlobalHub</p>
+          <p className="text-xs text-sidebar-foreground/70 px-4 py-2">© Tradinta</p>
         </SidebarFooter>
       </Sidebar>
       <SidebarInset>

@@ -82,7 +82,7 @@ export default function DashboardProducts() {
                         <TableCell>
                             <Badge variant="outline">Active</Badge>
                         </TableCell>
-                        <TableCell className="hidden md:table-cell">${product.price.toFixed(2)}</TableCell>
+                        <TableCell className="hidden md:table-cell">Kes {product.price.toFixed(2)}</TableCell>
                         <TableCell className="hidden md:table-cell">25</TableCell>
                         <TableCell>
                             <Button variant="ghost" size="sm">Edit</Button>

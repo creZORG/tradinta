@@ -48,7 +48,7 @@ import {
                   </Badge>
                 </TableCell>
                 <TableCell className="hidden md:table-cell">2023-06-23</TableCell>
-                <TableCell className="text-right">$250.00</TableCell>
+                <TableCell className="text-right">Kes 250.00</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>
@@ -64,7 +64,7 @@ import {
                   </Badge>
                 </TableCell>
                 <TableCell className="hidden md:table-cell">2023-06-24</TableCell>
-                <TableCell className="text-right">$150.00</TableCell>
+                <TableCell className="text-right">Kes 150.00</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>
@@ -80,7 +80,7 @@ import {
                   </Badge>
                 </TableCell>
                 <TableCell className="hidden md:table-cell">2023-06-25</TableCell>
-                <TableCell className="text-right">$350.00</TableCell>
+                <TableCell className="text-right">Kes 350.00</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>
@@ -96,7 +96,7 @@ import {
                   </Badge>
                 </TableCell>
                 <TableCell className="hidden md:table-cell">2023-06-26</TableCell>
-                <TableCell className="text-right">$450.00</TableCell>
+                <TableCell className="text-right">Kes 450.00</TableCell>
               </TableRow>
             </TableBody>
           </Table>

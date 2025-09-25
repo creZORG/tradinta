@@ -11,7 +11,7 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col gap-4">
             <Logo />
-            <p className="text-sm text-muted-foreground">Your global marketplace for unique and quality products.</p>
+            <p className="text-sm text-muted-foreground">Your Kenyan marketplace for unique and quality products.</p>
             <div className="flex gap-4 mt-2">
               <Link href="#" aria-label="Twitter"><Twitter className="h-5 w-5 hover:text-primary" /></Link>
               <Link href="#" aria-label="Instagram"><Instagram className="h-5 w-5 hover:text-primary" /></Link>
@@ -46,7 +46,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} GlobalHub Marketplace. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Tradinta Marketplace. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

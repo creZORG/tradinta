@@ -7,7 +7,7 @@ export function Logo({ className }: { className?: string }) {
       <div className="p-1.5 bg-primary text-primary-foreground rounded-lg">
         <Globe className="h-6 w-6" />
       </div>
-      <span>GlobalHub</span>
+      <span>Tradinta</span>
     </Link>
   );
 }

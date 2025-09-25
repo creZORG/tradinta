@@ -4,8 +4,8 @@ import { Toaster } from '@/components/ui/toaster';
 import { CartProvider } from '@/context/CartContext';
 
 export const metadata: Metadata = {
-  title: 'GlobalHub Marketplace',
-  description: 'A global marketplace for vendors and customers.',
+  title: 'Tradinta Marketplace',
+  description: 'A Kenyan marketplace for vendors and customers.',
 };
 
 export default function RootLayout({

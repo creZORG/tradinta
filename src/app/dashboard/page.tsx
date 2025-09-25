@@ -51,7 +51,7 @@ export default function VendorDashboard() {
             <DollarSign className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">$45,231.89</div>
+            <div className="text-2xl font-bold">Kes 45,231.89</div>
             <p className="text-xs text-muted-foreground">
               +20.1% from last month
             </p>
@@ -166,21 +166,21 @@ export default function VendorDashboard() {
                         <div className="font-medium">Liam Johnson</div>
                         <div className="hidden text-sm text-muted-foreground md:inline">liam@example.com</div>
                     </TableCell>
-                    <TableCell className="text-right">$250.00</TableCell>
+                    <TableCell className="text-right">Kes 250.00</TableCell>
                 </TableRow>
                 <TableRow>
                     <TableCell>
                         <div className="font-medium">Olivia Smith</div>
                         <div className="hidden text-sm text-muted-foreground md:inline">olivia@example.com</div>
                     </TableCell>
-                    <TableCell className="text-right">$150.00</TableCell>
+                    <TableCell className="text-right">Kes 150.00</TableCell>
                 </TableRow>
                  <TableRow>
                     <TableCell>
                         <div className="font-medium">Noah Williams</div>
                         <div className="hidden text-sm text-muted-foreground md:inline">noah@example.com</div>
                     </TableCell>
-                    <TableCell className="text-right">$350.00</TableCell>
+                    <TableCell className="text-right">Kes 350.00</TableCell>
                 </TableRow>
             </TableBody>
            </Table>

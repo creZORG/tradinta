@@ -79,7 +79,7 @@ export default function CheckoutPage() {
                 </div>
                 <div>
                   <Label htmlFor="country">Country</Label>
-                  <Input id="country" placeholder="United States" required />
+                  <Input id="country" placeholder="Kenya" required />
                 </div>
               </CardContent>
             </Card>
@@ -126,7 +126,7 @@ export default function CheckoutPage() {
                             <div className="flex-grow">
                                 <p className="font-semibold text-sm">{product.name}</p>
                             </div>
-                            <p className="font-semibold text-sm">${(product.price * quantity).toFixed(2)}</p>
+                            <p className="font-semibold text-sm">Kes {(product.price * quantity).toFixed(2)}</p>
                         </div>
                     )
                   })}
@@ -135,20 +135,20 @@ export default function CheckoutPage() {
                 <div className="space-y-2">
                     <div className="flex justify-between text-muted-foreground">
                         <span>Subtotal</span>
-                        <span>${cartTotal.toFixed(2)}</span>
+                        <span>Kes {cartTotal.toFixed(2)}</span>
                     </div>
                     <div className="flex justify-between text-muted-foreground">
                         <span>Shipping</span>
-                        <span>$5.00</span>
+                        <span>Kes 500.00</span>
                     </div>
                     <div className="flex justify-between text-muted-foreground">
                         <span>Taxes</span>
-                        <span>${(cartTotal * 0.08).toFixed(2)}</span>
+                        <span>Kes {(cartTotal * 0.16).toFixed(2)}</span>
                     </div>
                     <Separator/>
                     <div className="flex justify-between font-bold text-lg">
                         <span>Total</span>
-                        <span>${(cartTotal + 5 + cartTotal * 0.08).toFixed(2)}</span>
+                        <span>Kes {(cartTotal + 500 + cartTotal * 0.16).toFixed(2)}</span>
                     </div>
                 </div>
                 <Button type="submit" size="lg" className="w-full mt-6 bg-accent hover:bg-accent/90 text-accent-foreground">Place Order</Button>

@@ -95,10 +95,10 @@ export default function ProductPage({ params }: { params: { productId: string } 
             <p className="text-lg my-4">{product.description}</p>
             
             <div className="text-3xl font-bold my-4">
-              ${product.price.toFixed(2)}
+              Kes {product.price.toFixed(2)}
               {product.originalPrice && (
                 <span className="ml-4 text-lg text-muted-foreground line-through">
-                  ${product.originalPrice.toFixed(2)}
+                  Kes {product.originalPrice.toFixed(2)}
                 </span>
               )}
             </div>

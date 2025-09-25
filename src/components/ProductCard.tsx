@@ -61,10 +61,10 @@ export function ProductCard({ product }: ProductCardProps) {
           <span>{product.reviewCount} reviews</span>
         </div>
         <div className="text-xl font-bold">
-          ${product.price.toFixed(2)}
+          Kes {product.price.toFixed(2)}
           {product.originalPrice && (
             <span className="ml-2 text-sm text-muted-foreground line-through">
-              ${product.originalPrice.toFixed(2)}
+              Kes {product.originalPrice.toFixed(2)}
             </span>
           )}
         </div>
